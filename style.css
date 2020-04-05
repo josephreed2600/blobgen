@@ -1,0 +1,9 @@
+#blob {
+	position: fixed;
+	top: 10vw;
+	bottom: 10vw;
+	left: 10vw;
+	right: 10vw;
+	background: red;
+	padding: 7em;
+}
