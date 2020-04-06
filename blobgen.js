@@ -2,7 +2,7 @@
 // width and height are the dimensions of the safe space, given as numbers that will be interpreted in the same units as above
 // TODO get padding and use it as a default blobbiness
 // TODO allow separate blobbinesses for each side
-const getBlobClipPath = (element, blobbiness, width, height) => {
+const applyBlobClipPath = (element, blobbiness, width, height) => {
 	let limit = blobbiness.match(/[0-9]+/)[0];
 	let units = blobbiness.match(/[^0-9]+/)[0];
 	let boxW = element.clientWidth;
